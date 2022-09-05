@@ -27,7 +27,6 @@ namespace WordsPhrases
             phrase.AddWord(word2);
             string actual = phrase.GetPhrase();
             //Assert.AreEqual(expected, actual);
-
             if (actual == expected)
             {
                 Console.WriteLine($"Okay, '{actual}' es igual a '{expected}'");
